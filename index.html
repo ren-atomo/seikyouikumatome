@@ -1,0 +1,321 @@
+# seikyouikumatome<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>日本の性教育指導：年代・国で検索可能な詳細比較表</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                line-height: 1.6;
+                color: #333;
+                max-width: 1200px;
+                margin: 0 auto;
+                padding: 20px;
+            }
+            h1, h2 {
+                color: #1a5f7a;
+            }
+            table {
+                width: 100%;
+                border-collapse: collapse;
+                margin-bottom: 20px;
+            }
+            th, td {
+                border: 1px solid #ddd;
+                padding: 12px;
+                text-align: left;
+            }
+            th {
+                background-color: #1a5f7a;
+                color: white;
+            }
+            tr:nth-child(even) {
+                background-color: #f2f2f2;
+            }
+            .evaluation {
+                background-color: #e6f3ff;
+                padding: 15px;
+                border-radius: 5px;
+                margin-top: 20px;
+            }
+            #searchContainer {
+                margin-bottom: 20px;
+                display: flex;
+                gap: 10px;
+            }
+            select, button {
+                padding: 10px;
+                font-size: 16px;
+            }
+            button {
+                background-color: #1a5f7a;
+                color: white;
+                border: none;
+                cursor: pointer;
+            }
+            .highlight {
+                background-color: yellow;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>日本の性教育指導：年代・国で検索可能な詳細比較表</h1>
+    
+        <div id="searchContainer">
+            <select id="eraSelect">
+                <option value="">年代を選択</option>
+                <option value="1920">1920年代〜1930年代</option>
+                <option value="1940">1940年代〜1950年代</option>
+                <option value="1960">1960年代〜1970年代</option>
+                <option value="1980">1980年代〜1990年代</option>
+                <option value="2000">2000年代〜現在</option>
+            </select>
+            <select id="countrySelect">
+                <option value="">国を選択</option>
+                <option value="japan">日本</option>
+                <option value="western">欧米</option>
+                <option value="asia">アジア他国</option>
+            </select>
+            <button id="searchButton">検索</button>
+        </div>
+    
+        <h2>1. 歴史的変遷と特徴</h2>
+        <table id="historyTable">
+            <tr>
+                <th>時期</th>
+                <th>日本</th>
+                <th>欧米</th>
+                <th>アジア他国</th>
+            </tr>
+            <tr data-era="1920">
+                <td>1920年代〜1930年代</td>
+                <td data-country="japan">
+                    - 性教育の必要性認識開始<br>
+                    - 主に衛生教育の一環<br>
+                    - 山本宣治らによる先駆的な取り組み
+                </td>
+                <td data-country="western">
+                    - 性科学の発展（フロイト理論など）<br>
+                    - 一部の国で性教育プログラム開始
+                </td>
+                <td data-country="asia">
+                    - 大半の国で性教育は未発達<br>
+                    - 伝統的価値観が支配的
+                </td>
+            </tr>
+            <tr data-era="1940">
+                <td>1940年代〜1950年代</td>
+                <td data-country="japan">
+                    - 戦後の純潔教育推進<br>
+                    - 道徳的指導中心<br>
+                    - 1947年学習指導要領で初めて性教育に言及
+                </td>
+                <td data-country="western">
+                    - 第二次世界大戦後、性教育の必要性増大<br>
+                    - スウェーデンで1955年に義務化
+                </td>
+                <td data-country="asia">
+                    - 多くの国で依然として性教育は限定的<br>
+                    - 一部の国で家族計画教育開始
+                </td>
+            </tr>
+            <tr data-era="1960">
+                <td>1960年代〜1970年代</td>
+                <td data-country="japan">
+                    - 科学的性教育の必要性認識<br>
+                    - 1972年「性教育の手引き」発行<br>
+                    - 保守的傾向依然強い
+                </td>
+                <td data-country="western">
+                    - 性の革命と性教育の拡大<br>
+                    - 包括的性教育の概念発展
+                </td>
+                <td data-country="asia">
+                    - 人口抑制政策と関連した家族計画教育拡大<br>
+                    - 一部の国で学校での性教育開始
+                </td>
+            </tr>
+            <tr data-era="1980">
+                <td>1980年代〜1990年代</td>
+                <td data-country="japan">
+                    - エイズ教育導入（1987年〜）<br>
+                    - 性感染症予防教育強化<br>
+                    - 1999年「学校における性教育の考え方」発表
+                </td>
+                <td data-country="western">
+                    - HIV/AIDS教育の普及<br>
+                    - 多くの国で包括的性教育プログラム確立
+                </td>
+                <td data-country="asia">
+                    - HIV/AIDS教育の導入<br>
+                    - 徐々に包括的アプローチへ移行開始
+                </td>
+            </tr>
+            <tr data-era="2000">
+                <td>2000年代〜現在</td>
+                <td data-country="japan">
+                    - ジェンダー平等・多様性の観点導入<br>
+                    - 2015年「性同一性障害に係る児童生徒」通知<br>
+                    - 一部地域で先進的な取り組み開始
+                </td>
+                <td data-country="western">
+                    - LGBTQインクルーシブな性教育拡大<br>
+                    - デジタル時代の性教育課題への対応
+                </td>
+                <td data-country="asia">
+                    - 国による差が大きいが、全体的に改善傾向<br>
+                    - 中国、韓国などで包括的アプローチ採用増加
+                </td>
+            </tr>
+        </table>
+    
+        <h2>2. 現在の性教育内容比較</h2>
+        <table id="contentTable">
+            <tr>
+                <th>項目</th>
+                <th>日本</th>
+                <th>欧米（例：オランダ）</th>
+                <th>アジア他国（例：韓国）</th>
+            </tr>
+            <tr>
+                <td>開始年齢</td>
+                <td data-country="japan">主に中学生以降（一部小学校高学年から）</td>
+                <td data-country="western">4〜5歳から段階的に</td>
+                <td data-country="asia">小学校低学年から</td>
+            </tr>
+            <tr>
+                <td>アプローチ</td>
+                <td data-country="japan">主に生物学的・医学的アプローチ</td>
+                <td data-country="western">包括的性教育（生物学、心理学、社会学的側面を統合）</td>
+                <td data-country="asia">近年包括的アプローチへ移行中</td>
+            </tr>
+            <tr>
+                <td>主な内容</td>
+                <td data-country="japan">
+                    - 生殖器の構造と機能<br>
+                    - 月経・射精のメカニズム<br>
+                    - 性感染症予防<br>
+                    - 妊娠・出産の基礎知識
+                </td>
+                <td data-country="western">
+                    - 上記に加えて：<br>
+                    - 人間関係とコミュニケーション<br>
+                    - 性的同意と境界線<br>
+                    - 性の多様性（LGBTQ+）<br>
+                    - メディアリテラシー
+                </td>
+                <td data-country="asia">
+                    - 日本の内容に加えて：<br>
+                    - ジェンダー平等教育<br>
+                    - 性暴力防止教育<br>
+                    - 一部地域でLGBTQ+教育
+                </td>
+            </tr>
+            <tr>
+                <td>教材・方法</td>
+                <td data-country="japan">
+                    - 教科書中心<br>
+                    - 講義形式が多い<br>
+                    - 一部でワークショップ導入
+                </td>
+                <td data-country="western">
+                    - インタラクティブな教材<br>
+                    - ロールプレイ、ディスカッション<br>
+                    - デジタル教材の活用
+                </td>
+                <td data-country="asia">
+                    - 教科書と補助教材<br>
+                    - 講義とグループワークの併用<br>
+                    - オンライン教材の導入開始
+                </td>
+            </tr>
+            <tr>
+                <td>教員トレーニング</td>
+                <td data-country="japan">限定的。多くは個人の努力に依存</td>
+                <td data-country="western">体系的な訓練プログラムあり</td>
+                <td data-country="asia">近年、トレーニングプログラムを強化中</td>
+            </tr>
+            <tr>
+                <td>保護者の関与</td>
+                <td data-country="japan">限定的。学校主導の傾向</td>
+                <td data-country="western">保護者の積極的な参加を促進</td>
+                <td data-country="asia">保護者向け教育プログラムを徐々に導入</td>
+            </tr>
+        </table>
+    
+        <div id="evaluationSection" class="evaluation">
+            <h2>3. 総合評価</h2>
+            <p><strong>日本の性教育の現状評価：</strong></p>
+            <ul>
+                <li><strong>長所：</strong>
+                    <ul>
+                        <li>基礎的な生物学的知識の提供は比較的充実</li>
+                        <li>性感染症予防に関する意識は高い</li>
+                        <li>一部地域で先進的な取り組みが始まっている</li>
+                    </ul>
+                </li>
+                <li><strong>短所：</strong>
+                    <ul>
+                        <li>包括的アプローチの不足（人間関係、感情面の教育が不十分）</li>
+                        <li>開始年齢が遅い（多くの先進国と比較して）</li>
+                        <li>LGBTQや性の多様性に関する教育が不足</li>
+                        <li>教員のトレーニングが不十分</li>
+                        <li>社会的タブーにより、オープンな議論が難しい</li>
+                    </ul>
+                </li>
+            </ul>
+            <p><strong>今後の課題と展望：</strong></p>
+            <ul>
+                <li>より早期からの段階的な性教育の導入</li>
+                <li>包括的性教育アプローチの採用（生物学的側面だけでなく、心理的・社会的側面も含む）</li>
+                <li>教員向けの体系的なトレーニングプログラムの開発と実施</li>
+                <li>性の多様性やジェンダー平等に関する教育の強化</li>
+                <li>保護者や地域社会を巻き込んだ性教育の推進</li>
+                <li>デジタル時代に対応した新しい教育方法や教材の開発</li>
+            </ul>
+            <p>日本の性教育は、世界的な標準からは遅れを取っているものの、徐々に改善の動きが見られます。社会の変化や国際的な動向を踏まえ、より包括的で開かれた性教育の実現に向けて、教育政策の見直しや社会全体での取り組みが必要です。</p>
+        </div>
+
+    <script>
+        function searchAndHighlight() {
+            const era = document.getElementById('eraSelect').value;
+            const country = document.getElementById('countrySelect').value;
+            
+            // Remove existing highlights and show all rows
+            document.querySelectorAll('.highlight').forEach(el => {
+                el.classList.remove('highlight');
+            });
+            document.querySelectorAll('tr').forEach(row => {
+                row.style.display = '';
+            });
+
+            if (era === '' && country === '') return;
+
+            const tables = [document.getElementById('historyTable'), document.getElementById('contentTable')];
+
+            tables.forEach(table => {
+                table.querySelectorAll('tr').forEach(row => {
+                    if (era && row.dataset.era && row.dataset.era !== era) {
+                        row.style.display = 'none';
+                    } else {
+                        row.style.display = '';
+                    }
+
+                    if (country) {
+                        row.querySelectorAll(`td[data-country="${country}"]`).forEach(cell => {
+                            cell.classList.add('highlight');
+                        });
+                    }
+                });
+            });
+        }
+
+        document.getElementById('searchButton').addEventListener('click', searchAndHighlight);
+
+        // Add event listeners for select elements
+        document.getElementById('eraSelect').addEventListener('change', searchAndHighlight);
+        document.getElementById('countrySelect').addEventListener('change', searchAndHighlight);
+    </script>
+</body>
+</html>
